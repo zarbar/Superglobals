@@ -1,0 +1,10 @@
+--this is an example:
+
+CREATE DEFINER=`root`@`localhost` PROCEDURE `app_times`(IN `CusID` INT(200))
+   COMMENT 'Testing'
+BEGIN
+SELECT startTime
+from `appointments booking`
+where customerId = CusID
+;
+END
