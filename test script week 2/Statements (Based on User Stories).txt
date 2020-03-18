@@ -1,0 +1,43 @@
+-- USER STORIES
+
+--
+-- CREATE - Set up user account and book an appointment
+--
+
+INSERT INTO customers (Username, Password, FirstName, LastName, DateofBirth, PhoneNo, Email) VALUES
+('pmcnaughton', 'mcpeter', 'Peter', 'McNaughton', '2000-08-11', 07927384732, 'qainstructorsky2@gmail.com');
+
+INSERT INTO appointments (CustomerID, TreatmentID, Date, StartTime) VALUES
+('6', '4', '2020-09-21', '180000');
+ 
+--
+-- READ - See all treatments available
+--
+
+SELECT * FROM appointments;
+
+--
+-- UPDATE - Make changes to the appointment
+--
+
+UPDATE appointments
+SET TreatmentID='4', Date='2020-09-20'
+WHERE CustomerID='1', TreatmentID='2';
+
+--
+-- DELETE - cancel an appoinment
+--
+
+DELETE FROM appointments WHERE Customer ID='2';
+
+--
+-- READ - View the length of an appoinment
+--
+
+SELECT TreatmentName, Duration FROM treatments;
+
+--
+-- READ - View the price of an appointment
+--
+
+SELECT TreatmentName, Price, Description FROM treatments;
