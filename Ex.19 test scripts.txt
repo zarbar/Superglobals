@@ -1,4 +1,4 @@
-CREATE TABLE `appointments booking` (
+﻿CREATE TABLE `appointments booking` (
  `AppointmentID` int(11) NOT NULL AUTO_INCREMENT,
  `CustomerID` int(11) DEFAULT NULL,
  `TreatmentID` int(11) DEFAULT NULL,

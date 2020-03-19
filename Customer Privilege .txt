@@ -1,0 +1,10 @@
+CREATE Role Client_Role;
+
+GRANT UPDATE ON superglobals.customers TO Client_Role;
+
+
+
+
+To test that the privilege has worked add the following: 
+
+SHOW GRANTS for Client_Role;
