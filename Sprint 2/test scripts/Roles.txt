@@ -1,0 +1,11 @@
+CREATE role Client_role;
+
+GRANT UPDATE ON superglobals.customers TO Client_role;
+GRANT SELECT ON superglobals.appointmentsbooking TO Client_role;
+
+
+
+
+
+
+

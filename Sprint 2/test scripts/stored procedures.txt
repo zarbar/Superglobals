@@ -1,0 +1,19 @@
+DELIMITER $$
+CREATE DEFINER=`root`@`localhost` PROCEDURE `add appointment`(IN `customer` INT, IN `treatment` INT, IN `date_app` DATE, IN `time` TIME)
+    NO SQL
+BEGIN
+  INSERT INTO `appointments` 
+  (customerID, treatmentID, Date, StartTime)
+  VALUES (customer, treatment, date_app, time) 
+  
+  ;
+END$$
+DELIMITER ;
+
+
+DELIMITER $$
+CREATE DEFINER=`root`@`localhost` PROCEDURE `get_appointments`(IN `customer` INT)
+    NO SQL
+SELECT * FROM `appointments`
+WHERE customerID = customer$$
+DELIMITER ;
