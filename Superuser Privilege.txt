@@ -1,0 +1,3 @@
+CREATE Role Superuser_Role;
+
+GRANT SELECT, INSERT, UPDATE, DELETE,CREATE ON superglobals.* TO Superuser_Role;
