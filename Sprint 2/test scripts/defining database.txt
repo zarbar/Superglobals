@@ -54,7 +54,8 @@ CREATE TABLE Treatments (
 INSERT INTO treatments (TreatmentName, Duration, Price, Description) VALUES
 ('Massage', '45', '20', 'Deep Tissue Massage'),
 ('Laser', '60', '50', 'Hair Removal - Face'),
-('Facial', '60', '40', 'Hydrafacial' );
+('Facial', '60', '40', 'Hydrafacial'),
+('Manicure', '30', '25', 'Cleaning, shaping and painting of fingernails');
 
 --
 -- Table structure for table `appointments booking`
@@ -78,5 +79,6 @@ CREATE TABLE appointments (
 INSERT INTO appointments (CustomerID, TreatmentID, Date, StartTime) VALUES
 ('4', '3', '2020-03-12', '140000'),
 ('1', '2', '2020-03-13', '150000'),
-('2', '1', '2020-03-15', '160000');
+('2', '1', '2020-03-15', '160000'),
+('1', '2', '2020-03-13', '150000');
 --
