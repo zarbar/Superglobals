@@ -1,6 +1,21 @@
+FIRST WRITE THE FOLLOWING :
+
 CREATE Role Client_Role;
 
+
+
+FIRST PRIVILEGE: 
+
 GRANT UPDATE ON superglobals.customers TO Client_Role;
+
+
+
+
+
+SECOND PRIVILEGE FOR APPOINTMENT TABLE : 
+
+GRANT UPDATE ON superglobals.appointments TO Client_Role;
+
 
 
 
