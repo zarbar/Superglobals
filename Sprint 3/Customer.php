@@ -3,7 +3,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title></title>
+        <title>Customer</title>
     </head>
     <body>
         
@@ -11,40 +11,72 @@
       
       class Customer {
           
-          public $username;
-          private $password;
-          public $firstname;
-          public $lastname;
-          public $dateofbirth;
-          public $phoneno;
-          public $email; 
+          private $username; //This should be private information only viewable by the customer and in line with GDPR. 
+          private $password; //This should be private information only viewable by the customer and in line with GDPR.
+          protected $firstname; //This is to allow another subclass if created to access this information, for example, therapist can obtain their customer's information.
+          protected $lastname; //This is to allow another subclass if created to access this information, for example, therapist can obtain their customer's information.
+          protected $dateofbirth; //This is to allow another subclass if created to access this information, for example, therapist can obtain their customer's information.
+          protected $phoneno; //This is to allow another subclass if created to access this information, for example, therapist can obtain their customer's information.
+          protected $email;  //This is to allow another subclass if created to access this information, for example, therapist can obtain their customer's information.
           
-   public function __construct($username,$password,$firstname,$lastname,$email) {
+   public function __construct($firstname,$lastname,$dateofbirth,$phoneno,$email) {
        
-       $this->username = $username;
-       $this->password = $password;
        $this->firstname = $firstname;
        $this->lastname = $lastname;
+       $this->dateofbirth = $dateofbirth;
+       $this->phoneno = $phoneno;
        $this->email = $email;
        
    }    
           
-    function set_dateofbirth($dateofbirth) {
-    $this->dateofbirth = $dateofbirth;
-  }
+   public function getUsername() {
+       return $this->username;
+   }
+   
+   public function getPassword() {
+       return $this->password;
+   }
+   
+    public function setUsernameAndPassword($username, $password) {
+       $this->username = $username;
+       $this->password = $password;
+       echo "{$this->firstname}'s username is: {$username} and password: {$password}";
+       echo "<br>";
+    }
+   
+    public function __destruct() {
+       
+       //echo "<br>Your Username: {$this->username}.<br>";
+       //echo "Your Password: {$this->password}.<br>";
+       echo "<br>Your name: {$this->firstname} {$this->lastname}.<br>";
+       echo "Your Date of Birth: {$this->dateofbirth}.<br>";
+       echo "Your Phone Number: {$this->phoneno}.<br>";
+       echo "Your Email: {$this->email}.<br>";
+       
+    }
+       
+    //function set_dateofbirth($dateofbirth) {
+   // $this->dateofbirth = $dateofbirth;
+ // }
   
-   function set_phoneno($phoneno) {
-    $this->phoneno = $phoneno;
-  }
+   //function set_phoneno($phoneno) {
+  //  $this->phoneno = $phoneno;
+  //}
     
 
       }
     
-  $customer1 = new Customer('mw', 'thisisapassword', 'Maura', 'Watkinson','maurakelly9@hotmail.com');
-  $customer1->set_phoneno(0745456554135);
- 
+  $newcustomer1 = new Customer('Maura', 'Watkinson','1990-04-22','0745456554135','maurakelly9@hotmail.com');
   
-  var_dump($customer1);
+  $newcustomer1->setUsernameAndPassword('mw','thisispassword');
+          
+  $newcustomer2 = new Customer('Afua', 'Danquah','1990-02-22','0797384930943','a.dan@gmail.com');
+  $newcustomer2->setUsernameAndPassword('ad','secret');
+  //$customer1->set_phoneno(0745456554135);
+  
+  
+  //print_r($customer1);
+  //print_r($customer2);
  
        
           
