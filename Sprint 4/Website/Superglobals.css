@@ -1,0 +1,24 @@
+
+.navbar {
+    width: 100%;
+    padding: 50px;
+    background-color:pink;
+    color: white;
+    background-image:linear-gradient(to right,#cc0099,#ffff33);
+}
+
+.bodycolour {
+ 
+    background-color:pink;
+    background-image:linear-gradient(to right,#ffccff,white);
+ }
+ 
+ .containerccolour {
+     
+    color: black;
+    background-color:pink;
+    background-image:linear-gradient(to right,#ffccff,white);
+ }
+
+
+
