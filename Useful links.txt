@@ -1,9 +1,0 @@
-trello board: https://trello.com/b/tJhetu2t/superglobals-project-part-1
-LucidHeart - database design: https://www.lucidchart.com/documents/edit/f61901fc-2d59-4dce-97a5-ee463f1f19dc/0_0?shared=true
-
-Access your local databases:
-http://localhost/phpmyadmin/index.php
-
-Useful training site for mysql queries:
-https://sqlzoo.net/ 
-
