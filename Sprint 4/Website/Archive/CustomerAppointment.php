@@ -12,7 +12,7 @@
     <body class="bodycolour">
     
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark" style="background-image:linear-gradient(to right,#cc0099,#ffff33)">
-    <a class="navbar-brand" href="LandingPage.php">
+   <a class="navbar-brand" href="html.html">
        <img src="Images/SG.png" alt="Logo" style="width:40px;">
   </a>
         
@@ -24,19 +24,19 @@
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
   <ul class="navbar-nav">
     <li class="nav-item">
-        <a class="nav-link" href="LandingPage.php">Home</a>
+      <a class="nav-link" href="#">Home</a>
     </li>
     <li class="nav-item">
-        <a class="nav-link" href="BookAppORLogin.php">Book</a>
+      <a class="nav-link" href="#">Book</a>
     </li>
     <li class="nav-item">
-        <a class="nav-link" href="AboutPage.php">About</a>
+      <a class="nav-link" href="#">About</a>
     </li>
     <li class="nav-item">
         <a class="nav-link" href="Treatments.php">Treatments</a>
     </li>
      <li class="nav-item">
-         <a class="nav-link" href="BookAppORLogin.php">Login/Register</a>
+      <a class="nav-link" href="#">Login/Register</a>
     </li>
   </ul>
     </div>
@@ -44,10 +44,12 @@
     
         <br>
         <div class="container">
-            <h2>"First Name, Last Name's" Appointments</h2>
+            <h2>First Name, Last Name's Appointments</h2>
         </div>
         <br>
-
+ <?php
+        // put your code here
+?>
 <div class="container">
 <div class="table-responsive">
  <table class="table table-striped">
@@ -67,7 +69,7 @@
       <td></td>
       <td></td>
       <td></td>
-      <td><a href="UpdateBooking.php"> <img src="Images/update.png" alt="Update Icon" width="50" height="50"> </a></td>
+      <td><a href="#"> <img src="Images/update.png" alt="Update Icon" width="50" height="50"> </a></td>
       <td><a href="#"><img src="Images/delete.png" alt="Delete Icon" width="50" height="50"></a></td>
     </tr>
     <tr>
@@ -75,7 +77,7 @@
       <td></td>
       <td></td>
       <td></td>
-      <td><a href="UpdateBooking.php"><img src="Images/update.png" alt="Update Icon" width="50" height="50"></a></td>
+      <td><a href="#"><img src="Images/update.png" alt="Update Icon" width="50" height="50"></a></td>
       <td><a href="#"><img src="Images/delete.png" alt="Delete Icon" width="50" height="50"></a></td>
     </tr>
     <tr>
@@ -83,7 +85,7 @@
       <td></td>
       <td></td>
       <td></td>
-      <td><a href="UpdateBooking.php"><img src="Images/update.png" alt="Update Icon" width="50" height="50"></a></td>
+      <td><a href="#"><img src="Images/update.png" alt="Update Icon" width="50" height="50"></a></td>
       <td><a href="#"><img src="Images/delete.png" alt="Delete Icon" width="50" height="50"></a></td>
     </tr>
   </tbody>

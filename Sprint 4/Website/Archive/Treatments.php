@@ -15,7 +15,7 @@ and open the template in the editor.
     <body class="bodycolour">
         
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-        <a class="navbar-brand" href="LandingPage.php">
+   <a class="navbar-brand" href="#">
        <img src="Images/SG.png" alt="Logo" style="width:40px;">
   </a>
         
@@ -27,19 +27,19 @@ and open the template in the editor.
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
   <ul class="navbar-nav">
     <li class="nav-item">
-        <a class="nav-link" href="LandingPage.php">Home</a>
+      <a class="nav-link" href="#">Home</a>
     </li>
     <li class="nav-item">
-        <a class="nav-link" href="BookAppORLogin.php">Book</a>
+      <a class="nav-link" href="#">Book</a>
     </li>
     <li class="nav-item">
-        <a class="nav-link" href="AboutPage.php">About</a>
+      <a class="nav-link" href="#">About</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="Treatments.php">Treatments</a>
+      <a class="nav-link" href=""Treatments.php>Treatments</a>
     </li>
      <li class="nav-item">
-         <a class="nav-link" href="BookAppORLogin.php">Login/Register</a>
+      <a class="nav-link" href="#">Login/Register</a>
     </li>
   </ul>
     </div>
@@ -64,6 +64,7 @@ and open the template in the editor.
         
         <div class="container">
             <div class="containercolour">
+            <div class="bg-dark text-white">
                 
             <h3>Oil Message</h3>
             <p>Description: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
@@ -72,8 +73,7 @@ and open the template in the editor.
             </p> 
             <p>Duration: 60 minutes</p>
             <p>Price: £80</p>
-            <button type="submit" onclick="window.location.href='SuccessfulBooking.php'" class="btn submitbutton">Book Now</button>
-            <br>
+            <p><a href="#" class="text-white">Book Treatment</a></p>
             <br>
             <h3>Body Exfoliation</h3>
             <p>Description: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
@@ -82,7 +82,7 @@ and open the template in the editor.
             </p> 
             <p>Duration: 90 minutes </p>
             <p>Price: £120</p>
-            <button type="submit" onclick="window.location.href='BookAppOrLogin.php'" class="btn submitbutton">Book Now</button>
+            <p><a href="#" class="text-white">Book Treatment</a></p>
             </div>
             </div>      
         </div>
@@ -94,12 +94,13 @@ and open the template in the editor.
         <br>
         
         <div class="container">
-            <img src="Images/facial.jpg" class="mx-auto d-block">
+            <img src="facial.jpg" class="mx-auto d-block">
         </div>
         
         <br>
          <div class="container">
              <div class="containercolour">
+             <div class="bg-dark text-white">
             <h3>Facial Massage</h3>
              <p>Description: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
             Why do we use it?
@@ -107,8 +108,7 @@ and open the template in the editor.
             </p> 
             <p>Duration: 60 minutes</p>
              <p>Price: £70</p>
-             <button type="submit" onclick="window.location.href='SuccessfulBooking.php'" class="btn submitbutton">Book Now</button>
-             <br>
+             <p><a href="#" class="text-white">Book Treatment</a></p>
              <br>
              <h3>Specialist Facial</h3>
              <p>Description: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
@@ -117,11 +117,10 @@ and open the template in the editor.
             </p> 
              <p>Duration: 90 minutes</p>
             <p>Price: £100</p>
-            <button type="submit" onclick="window.location.href='SuccessfulBooking.php'" class="btn submitbutton">Book Now</button>
+            <p><a href="#" class="text-white">Book Treatment</a></p>
              </div>
              </div>
-        <br>
-        
+        </div>
         
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
