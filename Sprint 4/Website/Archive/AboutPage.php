@@ -2,17 +2,17 @@
     
 <head>
         <title>Superglobals Salon Home Page</title>
-        <!--<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Volkhov&display=swap" rel="stylesheet">-->
-        <link href="Superglobals.css" rel="stylesheet" type="text/css"/>
+        <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Volkhov&display=swap" rel="stylesheet">
+        <link href="WebsiteStyle.css" rel="stylesheet" type="text/css"/>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
 </head>
-<body class="bodycolour">
+ 
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark" style="background-image:linear-gradient(to right,#cc0099,#ffff33)">
-    <a class="navbar-brand" href="LandingPage.php">
-       <img src="Images/SG.png" alt="Logo" style="width:40px;">
+   <a class="navbar-brand" href="#">
+       <img src="Photos/SG.png" alt="Logo" style="width:40px;">
   </a>
         
    <!-- Toggler/collapsibe Button -->
@@ -28,23 +28,25 @@
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
   <ul class="navbar-nav">
     <li class="nav-item">
-        <a class="nav-link" href="LandingPage.php">Home</a>
+      <a class="nav-link" href="#">Home</a>
     </li>
     <li class="nav-item">
-        <a class="nav-link" href="BookAppORLogin.php">Book</a>
+      <a class="nav-link" href="#">Book</a>
     </li>
     <li class="nav-item">
-        <a class="nav-link" href="AboutPage.php">About</a>
+      <a class="nav-link" href="#">About</a>
     </li>
     <li class="nav-item">
-        <a class="nav-link" href="Treatments.php">Treatments</a>
+      <a class="nav-link" href="#">Treatments</a>
     </li>
      <li class="nav-item">
-         <a class="nav-link" href="BookAppORLogin.php">Login/Register</a>
+      <a class="nav-link" href="#">Login</a>
     </li>
   </ul>
     </div>
 </nav>
+
+<body class="bodycolour">
 
 <div class="container">
   <h1 align="center">A little more about us </h1>
@@ -73,9 +75,7 @@
   </div>
 </div>
 
- <?php
-        // put your code here
- ?>
+
 
 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

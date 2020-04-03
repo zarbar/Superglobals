@@ -1,8 +1,9 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 
 <html>
     <head>
-        <title>New Customer Account</title>
+        <title>Login into Account</title>
         <meta charset="UTF-8">
         <link href="Superglobals.css" rel="stylesheet" type="text/css"/>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -44,7 +45,7 @@
 
     <div class="container">
         <div class="container">
-            <h2>Create an account</h2>
+            <h2>My Account</h2>
         </div>
         <br>   
    <form action="/action_page.php" class="needs-validation" novalidate>
@@ -64,65 +65,16 @@
     <div class="invalid-feedback">Please fill out this field.</div>
       </div>
   </div>
-  <div class="form-group">
-      <div class="col-5">
-    <label for="fname">First name:</label>
-    <input type="text" class="form-control" id="fname" placeholder="Please enter your first name" name="fname" required>
-    <div class="valid-feedback">Valid</div>
-    <div class="invalid-feedback">Please fill out this field.</div>
-      </div>
-  </div>
-   <div class="form-group">
-      <div class="col-5">
-    <label for="lname">Last name:</label>
-    <input type="text" class="form-control" id="lname" placeholder="Please enter your last name" name="lname" required>
-    <div class="valid-feedback">Valid.</div>
-    <div class="invalid-feedback">Please fill out this field.</div>
-      </div>
-  </div>
-    <div class="form-group">
-       <div class="col-5">
-    <label for="dob">Date of Birth:</label>
-    <input type="date" class="form-control" id="dob" placeholder="Please enter your date of birth in this format - DD/MM/YY" name="dob" required>
-    <div class="valid-feedback">Valid.</div>
-    <div class="invalid-feedback">Please fill out this field.</div>
-       </div>
-  </div>
-   <div class="form-group">
-       <div class="col-5">
-    <label for="phone">Phone number:</label>
-    <input type="text" class="form-control" id="phone" placeholder="Please enter your phone number including country code" name="lname" required>
-    <div class="valid-feedback">Valid.</div>
-    <div class="invalid-feedback">Please fill out this field.</div>
-       </div>
-  </div>
-  <div class="form-group">
-       <div class="col-5">
-    <label for="email">Email Address:</label>
-    <input type="email" class="form-control" id="email" placeholder="Please enter your email address" name="lname" required>
-    <div class="valid-feedback">Valid.</div>
-    <div class="invalid-feedback">Please fill out this field.</div>
-       </div>
-  </div>
-  <div class="form-group form-check">
-      <div class="container">
-    <label class="form-check-label">
-      <input class="form-check-input" type="checkbox" name="terms" required> Do you agree on the terms and conditions of Superglobals Salon.
-      <div class="invalid-feedback">Check this checkbox to continue.</div>
-    </label>
-      </div>
-  </div>
-  <div class="form-group form-check">
-      <div class="container">
-    <label class="form-check-label">
-      <input class="form-check-input" type="checkbox" name="mailing" required> I wish to be part of Superglobals Salon mailing list.
-      <div class="invalid-feedback">Check this checkbox to continue.</div>
-    </label>
-      </div>
-  </div>
   <div class="container">
-  <button type="Create Account" onclick="window.location.href='UserDashboard.php'"class="btn submitbutton">Submit</button>
+  <button type="Login" onclick="window.location.href='UserDashboard.php'"class="btn submitbutton">Submit</button>
   </div>
+    <br>
+    <div class="container">
+       <a href="#" alt="Forgotten your Username?">Forgotten your Username?</a>
+    </div>
+    <div class="container">
+       <a href="#" alt="Forgotten your Password?">Forgotten your Password?</a>
+    </div>
 </form>
 </div>
         

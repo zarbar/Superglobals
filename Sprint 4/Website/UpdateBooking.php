@@ -11,7 +11,7 @@
     <body class="bodycolour">
     
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-   <a class="navbar-brand" href="html.html">
+        <a class="navbar-brand" href="LandingPage.php">
        <img src="Images/SG.png" alt="Logo" style="width:40px;">
   </a>
         
@@ -23,19 +23,19 @@
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
   <ul class="navbar-nav">
     <li class="nav-item">
-      <a class="nav-link" href="#">Home</a>
+        <a class="nav-link" href="LandingPage.php">Home</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">Book</a>
+        <a class="nav-link" href="BookAppORLogin.php">Book</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">About</a>
+        <a class="nav-link" href="AboutPage.php">About</a>
     </li>
     <li class="nav-item">
         <a class="nav-link" href="Treatments.php">Treatments</a>
     </li>
      <li class="nav-item">
-      <a class="nav-link" href="#">Login/Register</a>
+         <a class="nav-link" href="BookAppORLogin.php">Login/Register</a>
     </li>
   </ul>
     </div>
@@ -81,7 +81,7 @@
        </div>
   </div>
     <div class="container">
-    <button type="submit" class="btn btn-dark">Update</button>
+    <button type="submit" class="btn submitbutton">Update</button>
     </div>   
 </form>
 </div>

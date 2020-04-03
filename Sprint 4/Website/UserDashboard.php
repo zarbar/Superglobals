@@ -10,7 +10,7 @@
     <body class="bodycolour">
     
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark" style="background-image:linear-gradient(to right,#cc0099,#ffff33)">
-   <a class="navbar-brand" href="html.html">
+    <a class="navbar-brand" href="LandingPage.php">
        <img src="Images/SG.png" alt="Logo" style="width:40px;">
   </a>
         
@@ -22,19 +22,19 @@
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
   <ul class="navbar-nav">
     <li class="nav-item">
-      <a class="nav-link" href="#">Home</a>
+        <a class="nav-link" href="LandingPage.php">Home</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">Book</a>
+        <a class="nav-link" href="BookAppORLogin.php">Book</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">About</a>
+        <a class="nav-link" href="AboutPage.php">About</a>
     </li>
     <li class="nav-item">
         <a class="nav-link" href="Treatments.php">Treatments</a>
     </li>
      <li class="nav-item">
-      <a class="nav-link" href="#">Login/Register</a>
+         <a class="nav-link" href="LandingPage.php">Login/Register</a>
     </li>
   </ul>
     </div>
@@ -45,21 +45,23 @@
                 
             </h1>
             <div style="padding: 30px" align="center">
-            <button type="button" class="btn btn-secondary btn-lg" style="background-image:linear-gradient(to right,#cc0099,#ffff33); width: 30%">Book New Appointment</button>
+                <button type="submit" onclick="window.location.href='BookAppointment.php'" class="btn btn-secondary btn-lg" style="background-image:linear-gradient(to right,#cc0099,#ffff33); width: 30%">Book New Appointment</button>
             </div>
             <div style="padding: 30px" align="center">
-            <button type="button" class="btn btn-secondary btn-lg" style="background-image:linear-gradient(to right,#cc0099,#ffff33); width: 30%">See My Appointments</button>
+                <button type="submit" onclick="window.location.href='CustomerAppointment.php'" class="btn btn-secondary btn-lg" style="background-image:linear-gradient(to right,#cc0099,#ffff33); width: 30%">See My Appointments</button>
             </div>
             <div style="padding: 30px" align="center">
-            <button type="button" class="btn btn-secondary btn-lg" style="background-image:linear-gradient(to right,#cc0099,#ffff33); width: 30%">Logout</button>
+                <button type="submit" onclick="window.location.href='#'" class="btn btn-secondary btn-lg" style="background-image:linear-gradient(to right,#cc0099,#ffff33); width: 30%">Logout</button>
             </div> 
            
             
             
             
             </div>
-            
-        
+
+ <?php
+        // put your code here
+ ?>
 
 
 
@@ -69,4 +71,4 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>        
 
-
+</html>

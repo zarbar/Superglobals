@@ -11,7 +11,7 @@
  <body class="bodycolour">
 
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-        <a class="navbar-brand" href="LandingPage.php">
+   <a class="navbar-brand" href="#">
        <img src="Images/SG.png" alt="Logo" style="width:40px;">
   </a>
         
@@ -23,19 +23,19 @@
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
   <ul class="navbar-nav">
     <li class="nav-item">
-        <a class="nav-link" href="LandingPage.php">Home</a>
+      <a class="nav-link" href="#">Home</a>
     </li>
     <li class="nav-item">
-        <a class="nav-link" href="BookAppORLogin.php">Book</a>
+      <a class="nav-link" href="#">Book</a>
     </li>
     <li class="nav-item">
-        <a class="nav-link" href="AboutPage.php">About</a>
+      <a class="nav-link" href="#">About</a>
     </li>
     <li class="nav-item">
         <a class="nav-link" href="Treatments.php">Treatments</a>
     </li>
      <li class="nav-item">
-         <a class="nav-link" href="BookAppORLogin.php">Login/Register</a>
+      <a class="nav-link" href="#">Login/Register</a>
     </li>
   </ul>
     </div>
@@ -107,7 +107,7 @@
   <div class="form-group form-check">
       <div class="container">
     <label class="form-check-label">
-      <input class="form-check-input" type="checkbox" name="terms" required> Do you agree on the terms and conditions of Superglobals Salon.
+      <input class="form-check-input" type="checkbox" name="remember" required> Do you agree on the terms and conditions of Superglobals Salon.
       <div class="invalid-feedback">Check this checkbox to continue.</div>
     </label>
       </div>
@@ -115,13 +115,13 @@
   <div class="form-group form-check">
       <div class="container">
     <label class="form-check-label">
-      <input class="form-check-input" type="checkbox" name="mailing" required> I wish to be part of Superglobals Salon mailing list.
+      <input class="form-check-input" type="checkbox" name="remember" required> I wish to be part of Superglobals Salon mailing list.
       <div class="invalid-feedback">Check this checkbox to continue.</div>
     </label>
       </div>
   </div>
   <div class="container">
-  <button type="Create Account" onclick="window.location.href='UserDashboard.php'"class="btn submitbutton">Submit</button>
+  <button type="Create Account" class="btn btn-dark">Submit</button>
   </div>
 </form>
 </div>
