@@ -72,7 +72,7 @@ and open the template in the editor.
             </p> 
             <p>Duration: 60 minutes</p>
             <p>Price: £80</p>
-            <button type="submit" onclick="window.location.href='SuccessfulBooking.php'" class="btn submitbutton">Book Now</button>
+            <button type="submit" onclick="window.location.href='BookAppOrLogin.php'" class="btn submitbutton">Book Now</button>
             <br>
             <br>
             <h3>Body Exfoliation</h3>
@@ -107,7 +107,7 @@ and open the template in the editor.
             </p> 
             <p>Duration: 60 minutes</p>
              <p>Price: £70</p>
-             <button type="submit" onclick="window.location.href='SuccessfulBooking.php'" class="btn submitbutton">Book Now</button>
+             <button type="submit" onclick="window.location.href='BookAppOrLogin.php'" class="btn submitbutton">Book Now</button>
              <br>
              <br>
              <h3>Specialist Facial</h3>
@@ -117,7 +117,7 @@ and open the template in the editor.
             </p> 
              <p>Duration: 90 minutes</p>
             <p>Price: £100</p>
-            <button type="submit" onclick="window.location.href='SuccessfulBooking.php'" class="btn submitbutton">Book Now</button>
+            <button type="submit" onclick="window.location.href='BookAppOrLogin.php'" class="btn submitbutton">Book Now</button>
              </div>
              </div>
         <br>
